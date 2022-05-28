@@ -1,0 +1,14 @@
+.root {
+  :global{
+    .clearfix{
+      width: 500px;
+      padding: 0 20px;
+      .ant-form-item-label{
+        font-size: 12px;
+      }
+      .SubmitChange{
+        margin-right: 15px;
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+.root{
+  padding: 25px 0px;
+  font-size: 12px;
+  :global{
+    thead ,tbody{
+      font-size: 12px;
+    }
+  }
+}

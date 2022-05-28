@@ -1,0 +1,19 @@
+.root{
+  :global{
+    .AvatarBox{
+      width: 350px;
+      height: 250px;
+      margin-bottom: 15px;
+      img{
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .btnLayout{
+      button{
+        font-size: 13px;
+        margin-right: 15px;
+      }
+    }
+  }
+}

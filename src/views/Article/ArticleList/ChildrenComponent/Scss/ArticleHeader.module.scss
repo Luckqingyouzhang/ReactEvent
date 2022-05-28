@@ -1,0 +1,16 @@
+.root{
+  :global{
+    .ArticleListHeader{
+      display: flex;
+      align-items: center;
+      font-size: 12px;
+      Button{
+        font-size: 12px;
+      }
+      .publishedArt{
+        position: absolute;
+        right: 25px;
+      }
+    }
+  }
+}

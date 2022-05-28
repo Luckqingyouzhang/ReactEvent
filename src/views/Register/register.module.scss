@@ -1,0 +1,38 @@
+.root {
+  height: 100%;
+  :global{
+    .reg-container {
+      background: url('../../assets/images/login_bg.jpg') center;
+      background-size: cover;
+      height: 100%;
+
+      .reg-box {
+        width: 400px;
+        height: 335px;
+        background-color: #fff;
+        padding: 0 20px;
+        border-radius: 3px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        .title-box {
+          height: 60px;
+          background: url('../../assets/images/login_title.png') center no-repeat;
+        }
+        input::placeholder{
+          font-size: 12px;
+        }
+
+        .RegisterBtn{
+          font-size: 12px;
+        }
+        .GoLoginPage{
+          font-size: 13px;
+          padding: 10px 0 0 0 ;
+        }
+      }
+
+    }
+  }
+}
